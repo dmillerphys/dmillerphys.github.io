@@ -1,10 +1,26 @@
 ---
 layout: default
-permalink: /Writing/
+permalink: /writing/
 title: Writing
 nav: true
 nav_order: 1
-pagination:
+
+## Physics notes
+
+- [General Relativity notes (PDF)](/assets/pdf/general-relativity-notes.pdf)
+- [Quantum Mechanics notes (PDF)](/assets/pdf/quantum-mechanics-notes.pdf)
+
+<!--## Mathematics notes
+
+- [Complex Analysis notes (PDF)](/assets/pdf/complex-analysis-notes.pdf)-->
+
+
+
+
+
+
+
+<!--pagination:
   enabled: true
   collection: posts
   permalink: /page/:num/
@@ -14,28 +30,28 @@ pagination:
   trail:
     before: 1 # The number of links before the current page
     after: 3 # The number of links after the current page
----
+--- -->
 
-<div class="post">
+<!-- <div class="post">
 
 {% assign blog_name_size = site.blog_name | size %}
-{% assign blog_description_size = site.blog_description | size %}
+{% assign blog_description_size = site.blog_description | size %} -->
 
-{% if blog_name_size > 0 or blog_description_size > 0 %}
+<!--{% if blog_name_size > 0 or blog_description_size > 0 %}
 
   <div class="header-bar">
     <h1>{{ site.blog_name }}</h1>
     <h2>{{ site.blog_description }}</h2>
   </div>
-  {% endif %}
+  {% endif %} -->
 
-{% if site.display_tags and site.display_tags.size > 0 or site.display_categories and site.display_categories.size > 0 %}
+<!-- {% if site.display_tags and site.display_tags.size > 0 or site.display_categories and site.display_categories.size > 0 %}
 
   <div class="tag-category-list">
     <ul class="p-0 m-0">
       {% for tag in site.display_tags %}
         <li>
-          <i class="fa-solid fa-hashtag fa-sm"></i> <a href="{{ tag | slugify | prepend: '/blog/tag/' | relative_url }}">{{ tag }}</a>
+          <i class="fa-solid fa-hashtag fa-sm"></i> <a href="{{ tag | slugify | prepend: '/blog/tag/' | relative_url }}">--><!-- {{ tag }}</a>
         </li>
         {% unless forloop.last %}
           <p>&bull;</p>
@@ -53,14 +69,14 @@ pagination:
         {% endunless %}
       {% endfor %}
     </ul>
-  </div>
-  {% endif %}
+ <!-- </div>
+  {% endif %}-->
 
-{% assign featured_posts = site.posts | where: "featured", "true" %}
+<!-- {% assign featured_posts = site.posts | where: "featured", "true" %}
 {% if featured_posts.size > 0 %}
 <br>
 
-<div class="container featured-posts">
+<!-- <div class="container featured-posts">
 {% assign is_even = featured_posts.size | modulo: 2 %}
 <div class="row row-cols-{% if featured_posts.size <= 2 or is_even == 0 %}2{% else %}3{% endif %}">
 {% for post in featured_posts %}
@@ -74,7 +90,7 @@ pagination:
 <i class="fa-solid fa-thumbtack fa-xs"></i>
 </div>
 <h3 class="card-title text-lowercase">{{ post.title }}</h3>
-<p class="card-text">{{ post.description }}</p>
+<p class="card-text">{{ post.description }}</p>-->
 
                     {% if post.external_source == blank %}
                       {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
@@ -99,9 +115,9 @@ pagination:
     </div>
     <hr>
 
-{% endif %}
+<!-- {% endif %}
 
-  <ul class="post-list">
+  <ul class="post-list">-->
 
     {% if page.pagination.enabled %}
       {% assign postlist = paginator.posts %}
@@ -122,7 +138,7 @@ pagination:
 
     <li>
 
-{% if post.thumbnail %}
+<!-- {% if post.thumbnail %}
 
 <div class="row">
           <div class="col-sm-9">
@@ -189,7 +205,7 @@ pagination:
 
   </ul>
 
-{% if page.pagination.enabled %}
+{% if page.pagination.enabled %}-->
 {% include pagination.liquid %}
 {% endif %}
 
