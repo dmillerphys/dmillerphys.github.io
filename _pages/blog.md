@@ -3,7 +3,7 @@ layout: default
 permalink: /writing/
 title: Writing
 nav: true
-nav_order: 1
+nav_order: 2
 
 ## Physics notes
 
