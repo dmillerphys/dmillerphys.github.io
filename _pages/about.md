@@ -1,9 +1,8 @@
 ---
 layout: page
-title: About
+title: Douglas Miller
 permalink: /
-nav: true
-nav_order: 1
+
 
 profile:
   align: right
