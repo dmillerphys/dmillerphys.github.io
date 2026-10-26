@@ -3,7 +3,7 @@ layout: cv
 permalink: /cv/
 title: CV
 nav: true
-nav_order: 3
+nav_order: 4
 cv_pdf: /assets/pdf/Douglas_Miller_CV.pdf # you can also use external links here
 cv_format: rendercv # options: rendercv, jsonresume
 description: Below is a summary of my CV.
