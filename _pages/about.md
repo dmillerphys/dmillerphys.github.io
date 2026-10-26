@@ -1,6 +1,6 @@
 ---
-layout: about
-title: about
+layout: page
+title: Douglas Miller
 permalink: /
 subtitle: 
 
