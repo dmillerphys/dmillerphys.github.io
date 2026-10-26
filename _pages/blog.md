@@ -6,7 +6,6 @@ nav: true
 nav_order: 2
 ---
 
-## Physics notes
 
 - [General Relativity notes (PDF)](/assets/pdf/general-relativity-notes.pdf)
 - [Quantum Mechanics notes (PDF)](/assets/pdf/quantum-mechanics-notes.pdf)
