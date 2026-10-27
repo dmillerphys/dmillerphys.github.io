@@ -11,11 +11,7 @@ During my Summer 2026 NSF REU at the University of Rochester, I developed a gaug
 
 
 
-    # ---
-    #layout: page
-    #title: CMP Theory Research
-    #description: Quantum Scattering for Quantum Hall Interferometry
-    #--- 
+
 
 <!--<div class="row">
     <div class="col-sm mt-3 mt-md-0">
