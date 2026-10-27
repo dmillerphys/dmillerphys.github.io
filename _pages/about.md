@@ -25,5 +25,5 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Welcome to my webpage, my name is Douglas Miller.  I am a fourth-year undergraduate studying physics and math at Florida Atlantic University.  I am mainly interested in topological phases and topological quantum matter, as well as quantum gravity - particularly spinfoam models.  I am also interested in HEP theory but don't have research experience in it.  Here you will find my research projects, some of my writing, and my CV.
+Welcome to my webpage!  I am a fourth-year undergraduate studying physics and math at Florida Atlantic University.  I am mainly interested in topological phases and topological quantum matter, as well as quantum gravity - particularly spinfoam models.  I am also interested in HEP theory but don't have research experience in it.  Here you will find my research projects, some of my writing, and my CV.
 
