@@ -3,7 +3,7 @@ layout: page
 title: CMP Theory Research
 description: Quantum Scattering for Quantum Hall Interferometry
 importance: 1
-category: work
+category: 
 related_publications: true
 ---
 
