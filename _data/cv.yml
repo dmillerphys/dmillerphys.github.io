@@ -21,13 +21,13 @@ cv:
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
+      - institution: Florida Atlantic University
+        location: Boca Raton, Florida, U.S.A.
+        url: 
         area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
+        studyType: B.S.
+        start_date: 2023
+        end_date: 2027
         score: ""
         courses: "Theory of Relativity"
         highlights:
