@@ -1,18 +1,16 @@
 ---
 layout: page
 title: project 1
-description: with background image
-img: assets/img/12.jpg
+description: Quantum Scattering for Quantum Hall Interferometry
+img: 
 importance: 1
 category: work
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+During my Summer 2026 NSF REU at the University of Rochester, I developed a gauge-independent scattering framework for computing the transmission and reflection amplitudes of an electron through a saddle point potential $V = U_y y^2 - U_x x^2$.  This gauge independent treatment can easily be generalized to arbitrary potentials.  This, however, has been done before, slightly differently than I did this, obtaining the same information as I extract from the system in this paper on arXiv[2012.09875].
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+
 
     ---
     layout: page
