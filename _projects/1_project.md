@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 1
+title: CMP Theory Research
 description: Quantum Scattering for Quantum Hall Interferometry
 importance: 1
 category: work
