@@ -1,0 +1,37 @@
+/* Overall page layout */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main content expands to fill available space */
+main {
+    flex: 1;
+}
+
+/* Footer appearance */
+.site-footer {
+    margin-top: 50px;
+    padding: 20px 0;
+
+    background: white;
+    border-top: 1px solid #dce3e9;
+
+    color: #71808d;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+/* Footer content alignment */
+.footer-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+/* Remove default paragraph spacing */
+.footer-inner p {
+    margin: 0;
+}
