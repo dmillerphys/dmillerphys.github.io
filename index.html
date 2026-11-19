@@ -11,6 +11,68 @@
         content="Douglas Miller' webpage — physics, research, and notes.">
 
   <link rel="stylesheet" href="styles.css">
+
+<!-- Configure MathJax BEFORE loading it -->
+    <script>
+    window.MathJax = {
+        loader: {
+            load: [
+                '[tex]/physics',
+                '[tex]/mathtools'
+            ]
+        },
+
+        tex: {
+            packages: {
+                '[+]': ['physics', 'mathtools']
+            },
+
+            // Enable AMS-style equation numbering
+            tags: 'ams'
+        }
+    };
+    </script>
+
+    <!-- Load MathJax 4 -->
+    <script defer
+      src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js">
+    </script>
+
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+<!-- Configure MathJax -->
+<script>
+window.MathJax = {
+
+    tex: {
+        packages: {
+            '[+]': ['physics', 'mathtools']
+        },
+
+        // Enable numbered equations and references
+        tags: 'ams',
+
+        // Custom mathematical commands
+        macros: {
+            Lie: '\\mathfrak{g}',
+            Tr: '\\operatorname{Tr}'
+        }
+    },
+
+    loader: {
+        load: [
+            '[tex]/physics',
+            '[tex]/mathtools'
+        ]
+    }
+
+};
+</script>
+
+<!-- Load MathJax 4 -->
+<script defer
+src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js">
+</script>
+  
 </head>
 
 <body>
@@ -38,8 +100,8 @@ or at the singularities of black holes.
 <h4> CMP Theory  </h4>
 
 <ul> 
-  <li> <a href="assets/pdf/CMP_theory.pdf"> Electron Scattering Theory for Quantum Hall Interferometry</a> During the Summer 2026 University of Rochester NSF REU, where I was supervised by Prof. Chaitanya Murthy, 
-    I developed a gauge-independent treatment of electron scattering near quantum point-contacts for quantum Hall interferometry.  This project was motivated by the 2020 experiment reported in <a href=https://www.nature.com/articles/s41567-020-1019-1> Direct Observation of Anyonic Braiding Statistics</a>, where the Manfra group at Purdue University detected anyonic particle statistics in a quantum Hall interferometer. </li> 
+  <li> <a href="assets/CMP_theory.pdf"> <strong>Electron Scattering Theory for Quantum Hall Interferometry</strong></a> During the Summer 2026 University of Rochester NSF REU, where I was supervised by Prof. Chaitanya Murthy, 
+    I developed a gauge-independent treatment of electron scattering near quantum point-contacts for quantum Hall interferometry.  This project was motivated by the 2020 experiment reported in <a href=https://www.nature.com/articles/s41567-020-1019-1> Direct Observation of Anyonic Braiding Statistics</a>, where the Manfra group at Purdue University detected anyonic particle statistics in a quantum Hall interferometer.  We want to understand how implementing a quantum dot in the scattering region of the interferometer <a href=``https://arxiv.org/abs/2403.12139">arXiv2403.12139v2</a> can measure the anyonic exchange phase \( e^{i \theta} \), and not twice the exchange phase \(e^{2 i \theta}\). </li> 
   <!--<li> <a href="assets/pdf/Aharonov_Bohm_effect_For_Web.pdf"> <strong> Path Integral Derivation of the Aharonov-Bohm Effect</strong></a> This is more of an independent research project than a formal research program.  
     I am investigating the Aharonov-Bohm effect via the path integral approach to quantum mechanics.  In particular, I am investigating the caustics in the path integral for the effect.  
     This has, suprisingly, not been done before, and the derivations that do exist rely on (reasonable) heuristics. </li>-->
@@ -47,7 +109,7 @@ or at the singularities of black holes.
 
 <h4> Quantum Gravity  </h4>
 
-<ul> <li> <a href="assets/pdf/Quantum_Gravity_Spinfoams.pdf"> Non-Zero Levi-Civita Curvature in Ponzano-Regge</a> I am researching a subtle tension between the equations of motion in two different representations of the Ponzano-Regge spinfoam model of 3D quantum gravity.  In the group variable formulation, the equations of motion are flatness, as expected for a quantum theory of 3D gravity.  However, in the semi-classical limit of the spin formulation, the equations of motion are not flatness, but rather introduce locall orientations, giving non-flatness for some choices of orientation.  During this research, I have developed code to compute spinfoam amplitudes and expectation values of geometrical operators defined in the model.  A manuscript, to be published with Prof. Jonathan Engle, is in writing. </li> </ul>
+<ul> <li> <a href="assets/pdf/Quantum_Gravity_Spinfoams.pdf"> Non-Zero Levi-Civita Curvature in Ponzano-Regge</a> At Florida Atlantic University, where I am advised by Prof. Jonathan Engle, I am researching a subtle tension between the equations of motion in two different representations of the Ponzano-Regge spinfoam model of 3D quantum gravity.  In the group variable formulation, the equations of motion are flatness, as expected for a quantum theory of 3D gravity.  However, in the semi-classical limit of the spin formulation, the equations of motion are not flatness, but rather introduce locall orientations, giving non-flatness for some choices of orientation.  During this research, I have developed code to compute spinfoam amplitudes and expectation values of geometrical operators defined in the model.  A manuscript, to be published with Prof. Jonathan Engle, is in writing. </li> </ul>
 
 
 
